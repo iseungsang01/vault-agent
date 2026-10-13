@@ -1,0 +1,11 @@
+{
+  "readableDirs": ["00_기준", "01_요일별루틴", "02_운동기록", "03_운동별기록", "99_템플릿"],
+  "writableDirs": ["00_기준", "02_운동기록", "03_운동별기록"],
+  "readOnly": ["00_기준/운동_기구조건_주의사항.md"],
+  "alwaysRead": ["00_기준/운동_최신상태_블록.md", "01_요일별루틴/0. 주간루틴.md", "99_템플릿/운동기록_템플릿.md"],
+  "keywordDirs": ["03_운동별기록"],
+  "linkDepth": 1,
+  "recent": { "dir": "02_운동기록", "limit": 3 },
+  "newNote": "02_운동기록/{date}_{seed}.md",
+  "instructions": "vault-agent.instructions.md"
+}
