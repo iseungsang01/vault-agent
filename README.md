@@ -49,6 +49,10 @@ node vault-agent.mjs undo --vault <위키>
 
 `.agents/skills/vault-agent/SKILL.md`를 `~/.codex/skills/vault-agent/`에 복사하면, 자기 위키에서 Codex에게 "이 위키에 vault-agent 붙여 줘"라고 말해 설정 파일 두 개를 만들고 `plan`·`--dry-run` 결과를 보게 할 수 있다. 스킬은 위키 노트를 고치지 않고, 실제 반영은 사용자가 `run`으로 한다.
 
+## 함께 넣은 문서
+
+- `docs/앱_프롬프팅_가이드.md` — 이 위키의 폰 앱(운동 기록장)을 Codex와 만들 때의 프롬프팅 순서. 아이디어 정리 프롬프트 → 초기 구현 프롬프트 → 후속 구체화 프롬프트. 문구는 재사용할 수 있게 재구성한 예시다.
+
 ## 테스트
 
 ```powershell
